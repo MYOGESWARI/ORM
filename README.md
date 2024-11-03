@@ -23,6 +23,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
+```
 from django.db import models
 from django.contrib import admin
 clasfroms Costumer(models.Model):
@@ -40,7 +41,7 @@ class CostumerAdmin(admin.ModelAdmin):
 from django.contrib import admin
 from.models import Costumer,CostumerAdmin
 admin.site.register(Costumer,CostumerAdmin)	
-
+```
 ## OUTPUT
 
 ![alt text](<Screenshot 2024-10-27 133253.png>)
