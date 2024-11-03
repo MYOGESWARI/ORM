@@ -26,7 +26,7 @@ Execute Django admin and create details for 10 books
 ```
 from django.db import models
 from django.contrib import admin
-clasfroms Costumer(models.Model):
+class Costumer(models.Model):
   cid=models.CharField(max_length=20,primary_key="eid")
   accountnumber=models.IntegerField()
   name=models.CharField(max_length=20)
